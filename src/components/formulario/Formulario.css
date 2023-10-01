@@ -1,0 +1,23 @@
+.formulario{
+    display: flex;
+    background-color: #10142c;
+    justify-content: space-evenly;
+    padding: 80px 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.formulario form{
+    /*max-width: 80%;*/
+    flex: 1;
+    background-color: #33ddff;
+    color: white;
+    padding: 8px 100px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 15px rgba(255, 255, 255, 0.30);
+}
+
+.formulario h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
